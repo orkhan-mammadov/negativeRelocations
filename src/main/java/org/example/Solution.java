@@ -9,7 +9,7 @@ public class Solution {
         long sum = 0;
         int relocations = 0;
         PriorityQueue<Integer> negatives = new PriorityQueue<>(); //Stores negative numbers in natural order that has been added to sum
-        
+
         for (int current : A) {
             long newSum = sum + current;
             if (current < 0) {
